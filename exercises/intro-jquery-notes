@@ -102,7 +102,7 @@ Why this is less than ideal
 Looping
 	-Many built-in methods include implicit iteration
 	-Explicit iteration is for more complex tasks to be run on each member of a collection
-	$('img.profile-pic').each(function(index){
+	$('.meetup-overview h3').each(function(index){
 		if($(this).width() < $(this).height()){
 			$(this).css({'border':'solid 3px red'});
 		} else {
