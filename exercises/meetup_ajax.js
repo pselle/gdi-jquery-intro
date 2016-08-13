@@ -29,3 +29,6 @@ function parseMeetupData(e) {
 $(document).ready(function() {
     getMeetups($("#meetup_id").html())
 });
+
+// Hint:
+// Try 18938394 as a group_id

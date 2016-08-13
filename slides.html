@@ -35,11 +35,6 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-			  <!-- Prologue slide -->
-        <section>
-          <p><span class="blue">Wifi</span>: IndyHall 2.4ghz / coworking</p>
-          <p><span class="blue">Slides &amp; files</span>: http://www.elitepeers.com/gdi/jquery-intro</p> 
-        </section>
         <!-- Opening slide -->
         <section>
           <img src="images/gdi_logo_badge.png" style="width: 400px;">
@@ -76,7 +71,7 @@
         <!-- Basics-->
         <section>
           <h3>What is jQuery?</h3>
-          <p class="center">A javascript library</p>
+          <p class="center">A JavaScript library</p>
           <div class='fragment' style='margin-top:40px;'>
             <h3>Ok, what is a library?</h3>
             <p class="center">A collection of functions</p>
@@ -91,7 +86,7 @@
           <ul>
             <li>Write less code for common tasks</li>
             <li>Cross-browser uniformity</li>
-            <li>Not meant to replace an understanding of javascript</li>
+            <li>Not meant to replace an understanding of JavaScript</li>
           </ul>
         </section>
         <section>
@@ -144,7 +139,7 @@ document.querySelector('div.header').appendChild(p);</code></pre>
           <p>In your dev tools console...</p>
           <ul>
             <li>On the sample html file (jQueryDemo.html)</li>
-            <li class="fragment">On <a href="http://www.girldevelopit.com/chapters/philadelphia" target="_blank">GDI Philly's chapter page</a></li>
+            <li class="fragment">On <a href="http://www.girldevelopit.com/chapters/wilmington" target="_blank">GDI Wilmington's chapter page</a></li>
           </ul>
         </section>
         <section>
@@ -162,7 +157,7 @@ document.querySelector('div.header').appendChild(p);</code></pre>
             <li class="fragment">Download and serve
               <ul>
                 <li>Allows you to work locally without an internet connection</li>
-                <li>May be faster than a cdn</li>
+                <li>May be faster than a CDN</li>
                 <li>Good for development</li>
               </ul>
             </li>
@@ -276,7 +271,6 @@ var inputIsPA = $(collection).filter(function(){
           <p><span class="blue left">$('a').html();</span> <span>"Google"</span></p>
           <p><span class="blue left">$('a').attr('href');</span> <span>"http://www.google.com"</span></p>
           <p><span class="blue left">$('a').css('color');</span> <span>"green"</span></p>
-          <p class="fragment" style="clear: both;">Read some properties of the link to Yasmine's email.</p>
         </section>
         <section>
           <h3>Changing elements &amp; their properties</h3>
@@ -307,7 +301,7 @@ var inputIsPA = $(collection).filter(function(){
             <li>Many built-in methods include implicit iteration</li>
             <li>Explicit iteration is for more complex tasks to be run on each member of a collection</li>
           </ul>
-          <pre class="fragment"><code class="javascript">$('img.profile-pic').each(function(index){
+          <pre class="fragment"><code class="javascript">$('.meetup-overview h3').each(function(index){
   if($(this).width() < $(this).height()){
     $(this).css({'border':'solid 3px red'});
   } else {
@@ -501,10 +495,6 @@ $('#button').click(onButtonClick);</code></pre>
           <h2>Questions?</h2>
           <div style="font-size:1200%; height:100%; margin-top:30%" class="blue">?
             <div class="clear"></div></div>
-        </section>
-        <section>
-          <h2>Survey</h2>
-          <p class="center"><a href="http://bit.ly/gdi-jquery">http://bit.ly/gdi-jquery</a></p>
         </section>
 			</div>
   		<footer>
